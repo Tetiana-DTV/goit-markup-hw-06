@@ -781,7 +781,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 72px;
-    padding: 96px 16px;
+    padding: 0 16px;
 }
 
 .footer-logo {
@@ -1222,7 +1222,6 @@ form {
 }
 
 .checkbox-label {
-    display: inline-flex;
     align-items: center;
 
     font-size: 12px;
@@ -1255,6 +1254,7 @@ form {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: var(--iris);
+    display: inline;
     
 }
 
